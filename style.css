@@ -1,0 +1,26 @@
+.main-nav{
+    background-color: aqua;
+    margin-top: 10px;
+padding: o;
+list-style: none;
+height: 40px;}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{
+    text-decoration: none;
+color: blue;
+padding: 5px;
+font-size: 25px;}
+
+.main-nav__item a:hover{
+    color: #000;
+    text-decoration: underline;
+    font-size: 27px;
+    background-color: chartreuse;
+}
+.main-nav__item a::after{
+    content: " ^-^" ;
+}
